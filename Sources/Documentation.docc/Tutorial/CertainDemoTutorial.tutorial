@@ -1,0 +1,29 @@
+@Tutorial(time: 20) {
+    @Intro(title: "Demo Tutorial") {
+        Greetings! This is DocC for demo purpose 
+        
+        @Image(source: abstract.png, alt: "Abstract image")
+    }
+    
+    @Section(title: "Demo section") {
+        @ContentAndMedia {
+            This is content for ContentAndMedia block
+            
+            @Image(source: abstract.png, alt: "Abstract image")
+        }
+        
+        @Steps {
+            @Step {
+                First of all, you need to look at abstract image
+                
+                @Image(source: abstract.png, alt: "Abstract image")
+            }
+            
+            @Step {
+                Then, you need to look at some Swift code 
+                
+                @Code(name: "Demo swift-code file", file: TestCode.swift)
+            }
+        }
+    }
+}

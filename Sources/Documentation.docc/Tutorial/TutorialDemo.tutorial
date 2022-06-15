@@ -1,0 +1,15 @@
+@Tutorials(name: "Demo Tutorials title name") {
+    @Intro(title: "Demo Intro title") {
+        Demo Intro text to describe anything
+        
+        @Image(source: abstract.png, alt: "abstract image")
+    }
+    
+    @Chapter(name: "Sole Demo Chapter") {
+        Sole Demo Chapter description to describe this particular tutorial
+        
+        @Image(source: abstract.png, alt: "abstract image")
+        
+        @TutorialReference(tutorial: "doc:CertainDemoTutorial")
+    }
+}
